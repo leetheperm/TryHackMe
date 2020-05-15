@@ -1,0 +1,85 @@
+# Red Primer metasploit walkthrough
+
+## Initializing
+
+To initialize the metasploit database:
+```
+msfdb init
+```
+
+and you can check the status by checking 
+```
+db_status
+```
+in the metasploit console
+
+Metasploit uses a potsgresql database to store data
+
+## Move that shell
+
+we can run nmap in the metasploit database with
+```
+db_nmap -sV <ip>
+```
+That way, our data is stored in the database and easier to grab
+
+Other useful commands for this exercise are
+```
+hosts
+msf5 > hosts
+
+Hosts
+=====
+
+address        mac  name  os_name  os_flavor  os_sp  purpose  info  comments
+-------        ---  ----  -------  ---------  -----  -------  ----  --------
+10.10.42.190              Unknown                    device         
+10.10.210.126             Unknown                    device         
+
+```
+services
+```
+msf5 > services
+Services
+========
+
+host           port   proto  name               state  info
+----           ----   -----  ----               -----  ----
+10.10.42.190   135    tcp    msrpc              open   Microsoft Windows RPC
+10.10.42.190   139    tcp    netbios-ssn        open   Microsoft Windows netbios-ssn
+10.10.42.190   445    tcp    microsoft-ds       open   Microsoft Windows 7 - 10 microsoft-ds workgroup: WORKGROUP
+10.10.42.190   3389   tcp    ssl/ms-wbt-server  open   
+10.10.42.190   5357   tcp    http               open   Microsoft HTTPAPI httpd 2.0 SSDP/UPnP
+10.10.42.190   8000   tcp    http               open   Icecast streaming media server
+10.10.42.190   49152  tcp    msrpc              open   Microsoft Windows RPC
+10.10.42.190   49153  tcp    msrpc              open   Microsoft Windows RPC
+10.10.42.190   49154  tcp    msrpc              open   Microsoft Windows RPC
+10.10.42.190   49158  tcp    msrpc              open   Microsoft Windows RPC
+10.10.42.190   49159  tcp    msrpc              open   Microsoft Windows RPC
+10.10.42.190   49160  tcp    msrpc              open   Microsoft Windows RPC
+10.10.210.126  135    tcp    msrpc              open   Microsoft Windows RPC
+10.10.210.126  139    tcp    netbios-ssn        open   Microsoft Windows netbios-ssn
+10.10.210.126  445    tcp    microsoft-ds       open   Microsoft Windows 7 - 10 microsoft-ds workgroup: WORKGROUP
+10.10.210.126  3389   tcp    ssl/ms-wbt-server  open   
+10.10.210.126  5357   tcp    http               open   Microsoft HTTPAPI httpd 2.0 SSDP/UPnP
+10.10.210.126  8000   tcp    http               open   Icecast streaming media server
+10.10.210.126  49152  tcp    unknown            open   
+10.10.210.126  49153  tcp    unknown            open   
+10.10.210.126  49154  tcp    unknown            open   
+10.10.210.126  49158  tcp    unknown            open   
+10.10.210.126  49159  tcp    unknown            open   
+10.10.210.126  49161  tcp    unknown            open   
+```
+and lastly, vulns
+```
+msf5 > vulns
+
+Vulnerabilities
+===============
+
+Timestamp  Host  Name  References
+---------  ----  ----  ----------
+
+```
+No vulnerabilities found :/
+
