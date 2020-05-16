@@ -1,26 +1,25 @@
 # Linux Sporlce quiz
 
-Description						Command
-List directories/files			
-```ls```
+
+\n```ls```
 Copy file						
-```cp```
+\n```cp```
 Move file						
 ```mv```
 Change directory				
-```cd```
+\n```cd```
 Debian Package Manager			
 ```dpkg```
 Delete file						
-```rm```
+\n```rm```
 Change ownership				
-```chown```
+\n```chown```
 Change group					
-```chgrp *```
+\n```chgrp *```
 Change permissions				
-```chmod```
+\n```chmod```
 Concatenate a file				
-```cat```
+\n```cat```
 Change password					
 ```passwd```
 Create user account				
