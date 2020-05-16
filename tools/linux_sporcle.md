@@ -1,29 +1,52 @@
 # Linux Sporlce quiz
 
 Description						Command
-List directories/files			ls
-Copy file						cp
-Move file						mv
-Change directory				cd
-Debian Package Manager			dpkg
-Delete file						rm
-Change ownership				chown
-Change group					chgrp *
-Change permissions				chmod
-Concatenate a file				cat
-Change password					passwd
-Create user account				useradd *
-Make directory					mkdir
-Remove directory				rmdir *
-List running processes			ps
-Compile code					make *
-Print working directory			pwd
-Tape archive					tar
-GNU Zip							gzip *
-Find files						find
-Search for strings in file		grep
-Filesystem check				fsck *
-Print environment				env
+List directories/files			
+```ls```
+Copy file						
+```cp```
+Move file						
+```mv```
+Change directory				
+```cd```
+Debian Package Manager			
+```dpkg```
+Delete file						
+```rm```
+Change ownership				
+```chown```
+Change group					
+```chgrp *```
+Change permissions				
+```chmod```
+Concatenate a file				
+```cat```
+Change password					
+```passwd```
+Create user account				
+```useradd *```
+Make directory					
+```mkdir```
+Remove directory				
+```rmdir *```
+List running processes			
+```ps```
+Compile code					
+```make *```
+Print working directory			
+```pwd```
+Tape archive					
+```tar```
+GNU Zip							
+```gzip *```
+Find files						
+```find```
+Search for strings in file		
+```grep```
+Filesystem check				
+```fsck *```
+Print environment				
+```env```
 
 ## Advanced 
 
