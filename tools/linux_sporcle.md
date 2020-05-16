@@ -56,90 +56,110 @@ Remove directory
 
 ```rmdir *```
 
-List running processes			
+List running processes		
+
 ```ps```
-Compile code					
+
+Compile code		
+
 ```make *```
+
 Print working directory			
+
 ```pwd```
+
 Tape archive					
+
 ```tar```
+
 GNU Zip							
+
 ```gzip *```
+
 Find files						
+
 ```find```
+
 Search for strings in file		
+
 ```grep```
+
 Filesystem check				
+
 ```fsck *```
+
 Print environment				
+
 ```env```
+
 
 ## Advanced 
 
 most common modal editor				
 
-vi 
+```vi```
+
 Print current prev run level			
 
-runlevel *
+```runlevel *```
 Change run level						
 
-init *
+```init *```
 Change a user account					
 
-usermod *
+```usermod *```
+
 Print a file							
 
-lp *
+```lp *```
 Switch user								
 
-su
+```su```
 Compares two files						
 
-diff *
+```diff *```
 Displays a count in a file				
 
-wc *
+```wc *```
 Display text one at a time				
 
-more *
+```more *```
 Display the beginning of a file			
 
-head *
+```head *```
 Display the end of a file				
 
-tail *
+```tail *```
 Show full path of a command				
 
-which *
+```which *```
 View the current date and time			
 
-date *
+```date *```
 View the calendar						
 
-cal *
+```cal *```
 Remote shell							
 
-rsh *
+```rsh *```
 Secure shell							
 
-ssh
+```ssh```
 Secure copy								
 
-scp *
+```scp *```
 Secure ftp								
 
-sftp *
+```sftp *```
 Red hat package manager					
 
-rpm *
+```rpm *```
 Create a blank file						
 
-touch
+```touch```
 Mount a filesystem						
 
-mount
+```mount```
 Display free disk space					
 
-df
+```df```
