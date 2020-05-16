@@ -1,5 +1,5 @@
 # Linux Sporlce quiz
-```
+
 Description						Command
 List directories/files			ls
 Copy file						cp
@@ -24,9 +24,9 @@ Find files						find
 Search for strings in file		grep
 Filesystem check				fsck *
 Print environment				env
-```
+
 ## Advanced 
-```
+
 most common modal editor				vi 
 Print current prev run level			runlevel *
 Change run level						init *
@@ -49,4 +49,3 @@ Red hat package manager					rpm *
 Create a blank file						touch
 Mount a filesystem						mount
 Display free disk space					df
-```
