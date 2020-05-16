@@ -102,9 +102,11 @@ most common modal editor
 Print current prev run level			
 
 ```runlevel *```
+
 Change run level						
 
 ```init *```
+
 Change a user account					
 
 ```usermod *```
@@ -112,54 +114,71 @@ Change a user account
 Print a file							
 
 ```lp *```
+
 Switch user								
 
 ```su```
+
 Compares two files						
 
 ```diff *```
+
 Displays a count in a file				
 
 ```wc *```
+
 Display text one at a time				
 
 ```more *```
+
 Display the beginning of a file			
 
 ```head *```
+
 Display the end of a file				
 
 ```tail *```
+
 Show full path of a command				
 
 ```which *```
+
 View the current date and time			
 
 ```date *```
+
 View the calendar						
 
 ```cal *```
+
 Remote shell							
 
 ```rsh *```
+
 Secure shell							
 
 ```ssh```
+
 Secure copy								
 
 ```scp *```
+
 Secure ftp								
 
 ```sftp *```
+
 Red hat package manager					
 
 ```rpm *```
+
 Create a blank file						
 
 ```touch```
+
 Mount a filesystem						
 
 ```mount```
+
 Display free disk space					
 
-```df```
+```df``` 
